@@ -1,8 +1,6 @@
  /*
-
- * File: 0-positive_or_negative.c
-
- * Auth: David
+**File: 0-positive_or_negative.c
+** Auth: David
  */
 
 
@@ -12,17 +10,10 @@
 
 #include <stdio.h>
 
-
 /**
-
- * main - Prints a random number and states whether
-
- *        it is positive, negative, or zero.
-
- *
-
- * Return: Always 0.
-
+**main - Prints a random number and states whether
+*it is positive, negative, or zero.
+**Return: Always 0.
 */
 
 int main(void)
@@ -38,5 +29,4 @@ int main(void)
 	else
 		printf("%d is zero\n", n);
 	return (0);
-
 }
