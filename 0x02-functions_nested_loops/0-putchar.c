@@ -1,11 +1,18 @@
 #include "main.h"
-#include <unisted.h>
 /**
-*_putchar - writes the character c to stdout
-*@c: the character to print
-*Return: On success 1
-*/
-int _putchar(char c)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	return (write (1, &c, 1));
-}
+	char *sh = "_putchar";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
